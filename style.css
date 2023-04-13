@@ -44,3 +44,33 @@ nav{
   color: #fff;
   line-height: 14.4px;
   font-weight: 300;}
+/* Planes */
+.main-planes--container{
+  width:320px;
+  height: 831px;}
+
+.main-planes--title{
+  color: var(--font);
+  text-align: center;}
+
+.main-planes--title h2{
+  margin-top: 7px;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
+  font-weight: 500;}
+
+/* .main-planes--card-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 13px;
+
+
+} */
+
+.main-planes--card-tite-bold{
+  background-color: var(--button);
+  width:154px;
+  height: 52px;
+  border-radius: 23px 23px 0 0;
+}
