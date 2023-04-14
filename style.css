@@ -52,29 +52,39 @@ nav{
   line-height: 14.4px;
   font-weight: 300;}
 /* Planes */
-.main-planes--container{
-  margin-top: -40px;
+/* .main-planes--container {
+  margin-top: 7px;
   width:320px;
-  height: 831px;}
+  height: 831px;} */
 
 .main-planes--title{
   color: var(--font);
   text-align: center;}
 
 .main-planes--title h2{
+  padding-top:14px;
   font-size: 2rem;
   line-height: 2.4rem;
   text-align: center;
   font-weight: 500;}
 
-  .main-planes--container .card{
-    border:none;}
+.main-planes--container .card{
+  /* border:none;*/
+  border: 1px lightgray solid;
+  width:154px;
+} 
   
+/* .main-planes--card-container{
+  border: 1px lightgray solid;
+} */
 .main-planes--container{
-  display: flex;
-  flex-direction: column;
+  display:grid;
+  grid-column: 1;
   justify-content: center;
-  align-items: center;}
+  /* 
+  align-items: center;
+  margin:0 auto;*/
+} 
 
 /* .main-planes--card-tite-bold{
   background-color: var(--button);
@@ -87,16 +97,15 @@ nav{
   text-align: center;
   padding-top:14px;
 } */
-
-
-.main-planes--card-border{
+.main-planes--card-tite-bold{
   width:154px;
-  height: 214px;
-  border: 1px lightgray solid;
-  border-radius: 23px;
-
-  
+  background-color: var(--button);
+  color:#fff;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
 }
+
 .main-planes--card-light{
   color:var(--font);
   font-size: 1.4rem;
