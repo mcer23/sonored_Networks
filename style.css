@@ -62,21 +62,19 @@ nav{
   width: 90%;
   min-width: 288px;
   height: auto;
-  margin:0 auto;}
+  margin:0 auto;
+  text-align: center;
+  color:var(--font);}
 
 .planes--title h2{
   font-size: 2rem;
   line-height: 2.4rem;
-  text-align: center;
-  font-weight: 600;
-  color:var(--font);}
-
+  font-weight: 600;}
+  
 .planes--title p{
   font-size: 1.6rem;
   line-height: 1.9rem;
-  text-align: center;
-  font-weight: 300;
-  color:var(--font);}
+  font-weight: 300;}
 
 .planes-container--card{
   position: relative;
@@ -132,4 +130,63 @@ nav{
 
 .planes-card--contratar:hover{
   background-color: var(--font);}
+/* contacto */
+.main-contacto--container{
+  width:100%;
+  min-width:320px;
+  margin-top: 10px;}
+.contacto--title{
+  width:90%;
+  min-width: 288px;
+  height: auto;
+  margin:0 auto;
+  text-align: center;
+  color:var(--font)}
+.contacto--title h2{
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 600;}
+.contacto--title p{
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    font-weight: 300;}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto--form-container{
+  width:90%;
+  height: 39px;
+  margin: 3px auto;
+  color:var(--font);
+  font-size: 1.4rem;
+  line-height: 1.6rem;}
+input{
+  width:182px;}
+  
+.form-container--msg textarea{
+  width:182px;
+  height: 48px;
+  word-wrap: break-word;
+  border-color: gray;}
+
+.planes-card--send{
+  margin-top: 50px;
+  width:168px;
+  height: 39px;
+  background-color: var(--button);
+  border: none;
+  border-radius: 18px;
+  color:#fff;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 600;
+  letter-spacing:0.1rem;}
+
+.planes-card--send:hover{
+  background-color: var(--font);}
+
+/* Footer */
 
