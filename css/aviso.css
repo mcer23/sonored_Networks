@@ -1,0 +1,98 @@
+:root{
+    --font:#0F4E6D;
+    --bg:#E4F7FF;
+    --button:#24B9FF;
+    --sections:#C9EEFF;
+    --border:#DAECF4;
+  }
+  *{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  html{
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+  }
+  .main-planes--container{
+    width:100%;
+    min-width:320px;
+    text-align: center;
+  }
+  .planes--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin:0 auto;
+  }
+  .planes--title h2{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+    font-weight: 600;
+    color:var(--font);
+  }
+  .planes--title p{
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    font-weight: 300;
+    color:var(--font);
+  }
+  .planes-container--card{
+    position: relative;
+    width:30%;
+    min-width: 145px;
+    max-width: 228px;
+    height: 202px;
+    border-radius: 23px;
+    border:1px var(--border) solid;
+    margin:14px auto;
+  }
+
+  .planes-card--title{
+    position: absolute;
+    width:145px;
+    height: 39px;
+    padding:6px;
+    background-color: var(--button);
+    border-radius: 23px 23px 0 0 ;
+    color:#fff;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+  .planes-card--position{
+    padding-top: 49px;
+  }
+  .planes-card--position p{
+    color: var(--font);
+    text-align: center;
+  }
+  .planes-card--light{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+  }
+  .planes-card--bold{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+  }
+  .planes-card--contratar{
+    width:168px;
+    height: 39px;
+    margin-top: 20px;
+    background-color: var(--button);
+    border: none;
+    border-radius: 18px;
+    color:#fff;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    font-weight: 600;
+    letter-spacing:0.1rem;
+  }
+  .planes-card--contratar:hover{
+    background-color: var(--font);
+
+  }
