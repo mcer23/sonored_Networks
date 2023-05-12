@@ -219,6 +219,9 @@ input{
     justify-content: space-evenly;
     margin-bottom: 5px;
   }
+  .footer--redes-iconos img{
+    width:20px;
+  }
   .LogoSonoredOriginal{
     display: flex;
     width:75px;
