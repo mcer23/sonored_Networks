@@ -98,7 +98,7 @@
         </div>
       </section>
       <div class="planes-card--contratar">
-        <a href="https://www.google.com/"> Contratar</a>
+        <a class="btn--contratar" href="#" role="button">Contratar</a>
       </div>
         <!-- contacto -->
         <section class="main-contacto--container">
@@ -106,21 +106,20 @@
             <h2>Contacto</h2>
             <p>Llena los datos solicitados y nos comunicaremos contigo a la brevedad.</p>
           </div>
-          <div class="contacto--form">
             <form class="row g-3 contacto--form">
-              <div class="col-md-6 contacto--form-container">
+              <div class="col-12 contacto--form-container">
                 <label for="name" class="form-label">Nombre(s) </label>
                 <input type="text" class="form-control" id="name" placeholder="Juan Pedro" required>
               </div>
-              <div class="col-md-6 contacto--form-container">
+              <div class="col-12 contacto--form-container">
                 <label for="lastName" class="form-label">Apellido(s)</label>
                 <input type="text" class="form-control" id="lastName" placeholder="Lopez Martinez" required>
               </div>
-              <div class="col-md-6 contacto--form-container">
+              <div class="col-6 contacto--form-container">
                 <label for="adress" class="form-label">Colonia</label>
                 <input type="text" class="form-control" id="inputAddress" placeholder="Centro" required>
               </div>
-              <div class="col-md-6 contacto--form-container">
+              <div class="col-6 contacto--form-container">
                 <label for="phone" class="form-label">Teléfono</label>
                 <input type="tel" maxlength="10" class="form-control" id="phone" placeholder="662XXXXXXX" required>
               </div>
@@ -128,11 +127,10 @@
                 <label for="msg" class="form-label">Mensaje</label>
                 <input type="text" class="form-control" id="msg" placeholder="Max. 200 caracteres" required>
               </div>
-              <div class="col-12">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+              <div class="col-12 planes-card--send">
+                <button type="submit">Enviar</button>
               </div>
             </form>
-          </div>
         </section>
     </main>
   <footer class="footer-grid">
@@ -146,20 +144,23 @@
         <div class="col footer--redes">
           <p>Síguenos en nuestras redes sociales:</p>
           <div class="footer--redes-iconos"> 
-              <img src="/icon/fb.svg" alt="icono de facebook">
-              <img src="/icon/tiktok.svg" alt="icono de instagram">
-              <img src="/icon/ig.svg" alt="icono de instagram">
+              <img src="/icon/fb.svg" alt="Facebook_logo">
+              <img src="/icon/tiktok.svg" alt="tiktok_logo">
+              <img src="/icon/ig.svg" alt="instagram_logo">
           </div>
         </div>
       </div>
       <div class="row">
-          <div class="col-12 footer--avisos">
+        <div class="col footer--logo">
+          <img src="/icon/logo-footer.svg" alt="LogoSonoredOriginal" class="LogoSonoredOriginal">
+        </div>
+      </div>  
+      <div class="row">  
+        <div class="col-12 footer--avisos">
               <p>Conoce nuestro <a href="aviso.html">Aviso de Privacidad</a> y <a href="practicas.html">Código de Prácticas Comerciales</a> </p>
-          </div>
-          <div class="col"></div>
-          <div class="col footer--logo">
-              <img src="/icon/logo-footer.svg" alt="LogoSonoredOriginal" class="LogoSonoredOriginal">
-          </div>
+        </div>
+          
+          
       </div>
   </div>
   </footer>

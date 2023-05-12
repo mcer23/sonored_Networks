@@ -20,7 +20,9 @@ nav{
     top:0;
     background-color: var(--sections);
 }
-  
+main{
+    background-color: #F2FBFF;
+}
 .container-fluid button{
     border: none;}
   
@@ -117,24 +119,87 @@ h2{
     text-align: center;
     font-weight: 400;
 }
+/* contratar boton */
 .planes-card--contratar{
     width:168px;
     height: 39px;
     background-color: var(--button);
-    border: none;
     border-radius: 18px;
     margin: 0 auto;
     
 }
 .planes-card--contratar a{
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
     text-decoration: none;
-    color:#fff;
-    margin:10px;
+    color: #fff;
+    text-align: center;
     font-size: 1.6rem;
     line-height: 1.9rem;
-    font-weight: 600;
-    text-align: center;
-
+    
 }
 
-
+/* Contacto */
+.contacto--form{
+    padding:10px 20px;
+}
+.contacto--form label{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--font);
+}
+.planes-card--send {
+    display: flex;
+    justify-content: center;
+}
+.planes-card--send button{
+    width:168px;
+    height: 39px;
+    border: none;
+    border-radius: 18px;
+    background-color: var(--button);
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    color: #fff;
+}
+/* Footer */
+.footer-grid{
+    background-color: var(--sections);
+    margin-top: 10px;
+}
+.footer--info{
+    padding-top: 17px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color:var(--font);
+    font-weight: 600;
+}
+.footer--redes{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color:var(--font);
+    font-weight: 400;
+}
+.footer--redes-iconos img{
+    width: 25px;
+    height: 25px;
+}
+.footer--avisos a{
+    color:var(--font);
+}
+.footer--avisos p{
+    font-size:1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color:var(--font);
+}
+.footer--logo img{
+    width:75px;
+    height: 55px;
+    margin:0 auto;
+}
