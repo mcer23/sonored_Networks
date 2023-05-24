@@ -23,9 +23,18 @@ nav{
 main{
     background-color: #F2FBFF;
 }
+
 .container-fluid button{
     border: none;}
-  
+.nav-item a{
+    color: var(--font);
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    color: var(--font);
+}
+
 /* background img */
 .header-bg--img{
     width: 100%;
@@ -111,7 +120,6 @@ h2{
     text-align: center;
     font-weight: 300;
 }
-
 .planes-card--bold{
     font-size: 2rem;
     line-height: 2.4rem;
@@ -202,4 +210,75 @@ h2{
     width:75px;
     height: 55px;
     margin:0 auto;
+}
+@media(min-width: 768px){
+    .navbar-collapse a{
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    /* Background img */
+    .header-bg--img{
+        height: 403px;}
+    /* background txt */
+    .header-bg--txt{
+    padding:100px 23px;
+    width:338px;}
+  
+    .header-bg--txt h1{
+    font-size: 3.6rem;
+    line-height: 4.3rem;}
+  
+    .header-bg--txt hr{
+    width:320px;}
+  
+    .header-bg--txt p{
+    font-size: 2.4rem;
+    line-height: 2.8rem;}
+     /* planes */
+    /* titulos */
+    .planes--title,
+    .contacto--title{
+    min-width:768px;
+    margin-top: 16px;}
+    
+    h2{
+    font-size: 2.4rem;
+    line-height: 2.8rem;}
+
+    .planes--title p{
+    font-size: 2.4rem;
+    line-height: 2.8rem;}
+    
+    /* cuadros */
+    .planes-card--title{
+    width:100px;
+    min-width: 166px;
+    height: 45px;}
+
+
+.firstLine{
+    padding-top: 5px;
+}
+.planes-info-container h3{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+.planes-card--position{
+    width:100px;
+    min-width: 145px;
+    height: 163px;
+    border: 1px #DAECF4 solid;
+    border-radius: 0 0 23px 23px;
+    margin: 0 auto;
+}
+.planes-card--light{
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--font);
+    text-align: center;
+    font-weight: 300;
+}
 }
