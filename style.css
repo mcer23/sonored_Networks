@@ -23,18 +23,16 @@ nav{
 main{
     background-color: #F2FBFF;
 }
-
-.container-fluid button{
-    border: none;}
-.nav-item a{
-    color: var(--font);
+.container-fluid img{
+    width:133px;
 }
+.container-fluid button{border: none;}
+    
+.nav-item a{color: var(--font);}
 .nav-item a:hover{
     text-decoration: underline;
     font-weight: 600;
-    color: var(--font);
-}
-
+    color: var(--font);}
 /* background img */
 .header-bg--img{
     width: 100%;
@@ -132,8 +130,7 @@ h2{
     height: 39px;
     background-color: var(--button);
     border-radius: 18px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 .planes-card--contratar a{
     display: inline-block;
@@ -146,6 +143,12 @@ h2{
     font-size: 1.6rem;
     line-height: 1.9rem;
     
+}
+.planes-card--contratar:hover{
+    background-color: var(--font);
+}
+.planes-card--contratar a:hover{
+    color:#fff;
 }
 
 /* Contacto */
@@ -171,6 +174,9 @@ h2{
     line-height: 1.9rem;
     text-align: center;
     color: #fff;
+}
+.planes-card--send button:hover{
+    background-color: var(--font);
 }
 /* Footer */
 .footer-grid{
@@ -199,6 +205,11 @@ h2{
 .footer--avisos a{
     color:var(--font);
 }
+.footer--avisos a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    color: var(--font);
+}
 .footer--avisos p{
     font-size:1.2rem;
     line-height: 1.4rem;
@@ -210,6 +221,7 @@ h2{
     height: 55px;
     margin:0 auto;
 }
+/* Tablet */
 @media(min-width: 768px) and (max-width:1279px){
 .navbar-collapse a{
         font-size: 1.4rem;
@@ -240,7 +252,7 @@ h2{
     min-width:768px;
     margin-top: 16px;}
     
-.title--section h2{ /*! Arreglar */
+.title--section h2{ 
     font-size: 2.8rem;
     line-height: 3.3rem;}
 
@@ -318,6 +330,7 @@ h2{
     height: 100px;
 }   
 }
+/* Desktop */
 @media(min-width: 1280px){
     .container-fluid img{
         width:284px;
@@ -374,8 +387,7 @@ h2{
         height: 58px;}
    
     .planes-info-container{
-        margin-top:31px;
-        /* margin-bottom: 18px;*/} 
+        margin-top:31px;} 
     
     .firstLine{padding-top: 10px;}
 
