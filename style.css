@@ -221,6 +221,19 @@ h2{
     height: 55px;
     margin:0 auto;
 }
+/* avisos de privacidad */
+.main--aviso{
+    padding:10px 20px;
+    color: var(--font);
+    font-size: 1.2rem;
+    line-height:1.4rem;
+}
+.main--aviso h1, .bold-li{
+    font-weight: 500;
+}
+.main--aviso p{
+    font-weight: 300;
+}
 /* Tablet */
 @media(min-width: 768px) and (max-width:1279px){
 .navbar-collapse a{
@@ -328,7 +341,11 @@ h2{
 .footer--logo img{
     width:137px;
     height: 100px;
-}   
+}
+.main--aviso{
+    font-size: 2rem;
+    line-height:2.4rem;
+}  
 }
 /* Desktop */
 @media(min-width: 1280px){
@@ -459,6 +476,10 @@ h2{
         width:173px;
         height: 126px;
         margin:0 auto;
+    }
+    .main--aviso{
+        font-size: 2.4rem;
+        line-height:2.8rem;
     }  
    
 }
