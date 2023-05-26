@@ -87,51 +87,51 @@ h2{
     background-color: var(--button);
     border-radius: 23px 23px 0 0 ;
     padding:10px;
-    margin: 0 auto;
-}
-.planes-info-container{
-    margin-bottom: 18px;
-}
-.firstLine{
-    padding-top: 5px;
-}
+    margin: 0 auto;}
+
+.planes-info-container{margin-bottom: 18px;}
+    
+
+.firstLine{padding-top: 5px;}
+    
+
 .planes-info-container h3{
     font-size: 2rem;
     line-height: 2.4rem;
     color: #fff;
     text-align: center;
-    font-weight: 500;
-}
+    font-weight: 500;}
+
 .planes-card--position{
     width:100px;
     min-width: 145px;
     height: 163px;
     border: 1px #DAECF4 solid;
     border-radius: 0 0 23px 23px;
-    margin: 0 auto;
-}
+    margin: 0 auto;}
+
 .planes-card--light{
     font-size: 1.6rem;
     line-height: 1.9rem;
     color: var(--font);
     text-align: center;
-    font-weight: 300;
-}
+    font-weight: 300;}
+
 .planes-card--bold{
     font-size: 2rem;
     line-height: 2.4rem;
     color: var(--font);
     text-align: center;
-    font-weight: 600;
-}
+    font-weight: 600;}
+
 /* contratar boton */
 .planes-card--contratar{
     width:168px;
     height: 39px;
     background-color: var(--button);
     border-radius: 18px;
-    margin: 0 auto; 
-}
+    margin: 0 auto; }
+
 .planes-card--contratar a{
     display: inline-block;
     margin: auto;
@@ -141,29 +141,29 @@ h2{
     color: #fff;
     text-align: center;
     font-size: 1.6rem;
-    line-height: 1.9rem;
+    line-height: 1.9rem;}
     
-}
-.planes-card--contratar:hover{
-    background-color: var(--font);
-}
-.planes-card--contratar a:hover{
-    color:#fff;
-}
+
+.planes-card--contratar:hover{background-color: var(--font);}
+    
+
+.planes-card--contratar a:hover{color:#fff;}
+    
+
 
 /* Contacto */
-.contacto--form{
-    padding:10px 20px;
-}
+.contacto--form{padding:10px 20px;}
+    
+
 .contacto--form label{
     font-size: 1.4rem;
     line-height: 1.6rem;
-    color: var(--font);
-}
+    color: var(--font);}
+
 .planes-card--send {
     display: flex;
-    justify-content: center;
-}
+    justify-content: center;}
+
 .planes-card--send button{
     width:168px;
     height: 39px;
@@ -173,67 +173,73 @@ h2{
     font-size: 1.6rem;
     line-height: 1.9rem;
     text-align: center;
-    color: #fff;
-}
-.planes-card--send button:hover{
-    background-color: var(--font);
-}
+    color: #fff;}
+
+.planes-card--send button:hover{ background-color: var(--font);}
+   
+
 /* Footer */
 .footer-grid{
     background-color: var(--sections);
-    margin-top: 10px;
-}
+    margin-top: 10px;}
+
 .footer--info{
     padding-top: 17px;
     font-size: 1.2rem;
     line-height: 1.4rem;
     text-align: center;
     color:var(--font);
-    font-weight: 600;
-}
+    font-weight: 600;}
+
 .footer--redes{
     font-size: 1.2rem;
     line-height: 1.4rem;
     text-align: center;
     color:var(--font);
-    font-weight: 400;
-}
+    font-weight: 400;}
+
 .footer--redes-iconos img{
     width: 25px;
-    height: 25px;
-}
-.footer--avisos a{
-    color:var(--font);
-}
+    height: 25px;}
+
+.footer--avisos a{color:var(--font);}
+    
+
 .footer--avisos a:hover{
     text-decoration: underline;
     font-weight: 600;
-    color: var(--font);
-}
+    color: var(--font);}
+
 .footer--avisos p{
     font-size:1.2rem;
     line-height: 1.4rem;
     text-align: center;
-    color:var(--font);
-}
+    color:var(--font);}
+
 .footer--logo img{
     width:75px;
     height: 55px;
-    margin:0 auto;
-}
+    margin:0 auto;}
+
 /* avisos de privacidad */
-.main--aviso{
+.padding-left {padding-left: 20px;}
+  
+
+.main--aviso, .main--CPC{
     padding:10px 20px;
     color: var(--font);
     font-size: 1.2rem;
-    line-height:1.4rem;
-}
-.main--aviso h1, .bold-li{
+    line-height:1.4rem;}
+
+.main--aviso h1, .bold-li, .main--CPC h1{
     font-weight: 500;
-}
-.main--aviso p{
-    font-weight: 300;
-}
+    padding:10px}
+    
+
+.bold-li{list-style: none;}
+    
+
+
 /* Tablet */
 @media(min-width: 768px) and (max-width:1279px){
 .navbar-collapse a{
@@ -342,7 +348,7 @@ h2{
     width:137px;
     height: 100px;
 }
-.main--aviso{
+.main--aviso, .main--CPC{
     font-size: 2rem;
     line-height:2.4rem;
 }  
@@ -477,9 +483,9 @@ h2{
         height: 126px;
         margin:0 auto;
     }
-    .main--aviso{
-        font-size: 2.4rem;
-        line-height:2.8rem;
+    .main--aviso, .main--CPC{
+        font-size: 2rem;
+        line-height:2.4rem;
     }  
    
 }
