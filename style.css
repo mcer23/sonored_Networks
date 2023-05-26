@@ -184,6 +184,11 @@ h2{
 
 .planes-card--send button:hover{ background-color: var(--font);}
    
+.contact--email{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--font);
+    text-align: center;}
 
 /* Footer */
 .footer-grid{
@@ -233,7 +238,7 @@ h2{
   
 
 .main--aviso, .main--CPC{
-    padding:10px 20px;
+    padding:90px 20px;
     color: var(--font);
     font-size: 1.2rem;
     line-height:1.4rem;}
@@ -328,6 +333,10 @@ h2{
     height: 39px;
     font-size: 2rem;
     line-height: 2.4rem;}
+
+.contact--email{
+    font-size: 2rem;
+    line-height: 2.4rem;}    
 
     /* Footer */
 .footer-grid{
@@ -464,7 +473,9 @@ h2{
         height: 45px;
         font-size: 2.6rem;
         line-height: 3.1rem;} 
-        
+    .contact--email{
+        font-size: 2.6rem;
+        line-height: 3.1rem}          
    /* Footer */
     .footer-grid{margin-top: 16px;}
 
