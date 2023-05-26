@@ -235,7 +235,7 @@ h2{
     font-weight: 500;
     padding:10px}
     
-
+.main--CPC a{color:var(--font);}
 .bold-li{list-style: none;}
     
 
@@ -346,18 +346,18 @@ h2{
 
 .footer--logo img{
     width:137px;
-    height: 100px;
-}
+    height: 100px;}
+
 .main--aviso, .main--CPC{
     font-size: 2rem;
-    line-height:2.4rem;
-}  
+    line-height:2.4rem;} 
+ 
 }
 /* Desktop */
 @media(min-width: 1280px){
-    .container-fluid img{
-        width:284px;
-    }
+    .container-fluid img{width:284px;}
+        
+    
     .navbar-container{
         width:100%;
         display: flex;
@@ -393,8 +393,8 @@ h2{
     .title--section{
         width:100%;
         min-width:408px;
-        margin-top: 31px;
-        }
+        margin-top: 31px;}
+        
       .title--section h2{
         font-size: 3.6rem;
         line-height: 4.3rem;}
@@ -463,20 +463,20 @@ h2{
 
     .footer--info{
         padding-top: 17px;
-        font-size: 2.8rem;
-        line-height: 3.3rem;}
+        font-size: 2.4rem;
+        line-height: 2.8rem;}
 
     .footer--redes{
-        font-size: 2.8rem;
-        line-height: 3.3rem;}
+        font-size: 2.4rem;
+        line-height: 2.8rem;}
  
     .footer--redes-iconos img{
         width: 45px;
         height: 45px;}
     
     .footer--avisos p{
-        font-size: 2.8rem;
-        line-height: 3.3rem;}
+        font-size: 2.4rem;
+        line-height: 2.8rem;}
     
     .footer--logo img{
         width:173px;
