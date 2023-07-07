@@ -188,11 +188,18 @@ h2{
 
 .planes-card--send button:hover{ background-color: var(--font);}
    
+.contact--email a{
+    color: var(--font);
+}
+.contact--email a:hover{
+    color:var(--button);
+}
 .contact--email{
     font-size: 1.4rem;
     line-height: 1.6rem;
     color: var(--font);
     text-align: center;}
+
 
 /* Footer */
 .footer-grid{
@@ -339,7 +346,8 @@ h2{
 
 .contact--email{
     font-size: 2rem;
-    line-height: 2.4rem;}    
+    line-height: 2.4rem;}
+
 
     /* Footer */
 .footer-grid{
