@@ -159,6 +159,10 @@ h2{
 
 
 /* Contacto */
+.title--section-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .contacto--form{padding:10px 20px;}
     
 
@@ -249,8 +253,6 @@ h2{
     
 .main--CPC a{color:var(--font);}
 .bold-li{list-style: none;}
-    
-
 
 /* Tablet */
 @media(min-width: 768px) and (max-width:1279px){
@@ -282,6 +284,7 @@ h2{
     .title--section{
     min-width:768px;
     margin-top: 16px;}
+
     
 .title--section h2{ 
     font-size: 2.8rem;
