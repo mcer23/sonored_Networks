@@ -204,10 +204,9 @@ h2{
 
 
 /* Footer */
-
 .footer-grid{
     background-color: var(--sections);
-    margin-top: 10px;}
+    padding-top: 10px;}
 
 .footer--info{
     padding-top: 17px;
@@ -353,16 +352,7 @@ h2{
 
 
     /* Footer */
-footer {
-        width: 100%;
-        background-color: var(--sections);
-        padding: 1rem 0;
-        position: absolute;
-        bottom: 0;
-}
-.footer-grid{
-    margin-top: 10px;
-}
+
 .footer--info{
     padding-top: 17px;
     font-size: 2rem;
@@ -494,7 +484,7 @@ footer {
         font-size: 2.4rem;
         line-height: normal;}          
    /* Footer */
-    .footer-grid{margin-top: 16px;}
+    .footer-grid{padding-top: 10px;}
 
     .footer--info{
         padding-top: 17px;
