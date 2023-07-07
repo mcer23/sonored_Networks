@@ -375,8 +375,6 @@ h2{
 /* Desktop */
 @media(min-width: 1280px){
     .container-fluid img{width:284px;}
-        
-    
     .navbar-container{
         width:100%;
         display: flex;
@@ -404,8 +402,8 @@ h2{
         width:500px;}
     
     .header-bg--txt p{
-        font-size: 3.6rem;
-        line-height: 4.3rem;}
+        font-size: 3.4rem;
+        line-height: normal;}
 
     /* planes */
     /* titulos */
@@ -415,12 +413,12 @@ h2{
         margin-top: 31px;}
         
       .title--section h2{
-        font-size: 3.6rem;
-        line-height: 4.3rem;}
+        font-size: 2.4rem;
+        line-height: normal;}
 
     .title--section p{
-        font-size: 2.8rem;
-        line-height: 3.3rem;}
+        font-size: 2rem;
+        line-height: normal;}
     
         /* cuadros */
     .planes-card--title{
@@ -434,8 +432,8 @@ h2{
     .firstLine{padding-top: 10px;}
 
     .planes-info-container h3{
-        font-size: 3.6rem;
-        line-height: 4.3rem;}
+        font-size: 2.4rem;
+        line-height: normal;}
     
     .planes-card--position{
         width:100px;
@@ -444,10 +442,9 @@ h2{
         border: 1px #DAECF4 solid;}
     
     .planes-card--light{
-        font-size: 2.8rem;
+        font-size: 2rem;
         line-height: 3.3rem;}
-    
-  
+
     .planes-card--bold{
         font-size: 3.6rem;
         line-height: 4.3rem; }
@@ -458,10 +455,9 @@ h2{
         height: 45px;}
         
     .planes-card--contratar a{
-        font-size: 2.6rem;
-        line-height: 3.1rem;
+        font-size: 2.4rem;
+        line-height: normal;
         padding: 7px;}
-        
     
      /* Contacto */
      .contacto--form{padding:10px 204px;}
@@ -477,8 +473,8 @@ h2{
         font-size: 2.6rem;
         line-height: 3.1rem;} 
     .contact--email{
-        font-size: 2.6rem;
-        line-height: 3.1rem}          
+        font-size: 2.4rem;
+        line-height: normal;}          
    /* Footer */
     .footer-grid{margin-top: 16px;}
 
