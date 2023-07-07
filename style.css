@@ -13,7 +13,8 @@
 
 html{
     font-size: 62.5%;
-    font-family: 'Lato', sans-serif;}
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;}
 
 header .navbar{overflow: hidden;
     background-color: var(--sections);
@@ -386,7 +387,8 @@ h2{
     .navbar-container{
         width:100%;
         display: flex;
-        justify-content: space-evenly;}
+        justify-content: space-evenly;
+        max-width: 1280px;}
     
     .navbar-collapse a{
         font-size: 1.8rem;
