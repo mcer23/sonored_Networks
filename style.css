@@ -16,6 +16,7 @@ html{
     font-family: 'Lato', sans-serif;
     overflow-x:hidden;}
 
+    /***************************************  Mobile    ***************************************+*/
 header .navbar{overflow: hidden;
     background-color: var(--sections);
     position: fixed;
@@ -168,7 +169,6 @@ h2{
 }
 .contacto--form{padding:10px 20px;}
     
-
 .contacto--form label{
     font-size: 1.4rem;
     line-height: 1.6rem;
@@ -192,11 +192,11 @@ h2{
 .planes-card--send button:hover{ background-color: var(--font);}
    
 .contact--email a{
-    color: var(--font);
-}
+    color: var(--font);}
+
 .contact--email a:hover{
-    color:var(--button);
-}
+    color:var(--button);}
+
 .contact--email{
     font-size: 1.4rem;
     line-height: 1.6rem;
@@ -264,7 +264,7 @@ h2{
 .main--CPC a{color:var(--font);}
 .bold-li{list-style: none;}
 
-/* Tablet */
+/********************************************* Tablet **********************************************/
 @media(min-width: 768px) and (max-width:1279px){
 .navbar-collapse a{
         font-size: 1.4rem;
@@ -291,11 +291,10 @@ h2{
 
      /* planes */
     /* titulos */
-    .title--section{
-    min-width:768px;
-    padding-top: 16px;}
+.title--section{
+min-width:768px;
+padding-top: 16px;}
 
-    
 .title--section h2{ 
     font-size: 2.8rem;
     line-height: 3.3rem;}
@@ -380,7 +379,7 @@ h2{
     line-height:2.4rem;} 
  
 }
-/* Desktop */
+/******************************************** Desktop *********************************************/
 @media(min-width: 1280px){
     .container-fluid img{width:284px; height:auto;}
     .navbar-container{
@@ -470,8 +469,7 @@ h2{
     
      /* Contacto */
      .contacto--form{padding:10px 204px;}
-        
-
+     
     .contacto--form label{
         font-size: 2.4rem;
         line-height: normal;}

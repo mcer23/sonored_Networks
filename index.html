@@ -61,7 +61,7 @@
         </div>
         <div class="container text-center">
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm">
               <div class="planes-info-container">
                 <h3 class="planes-card--title">Plan 5</h3>
                 <div class="planes-card--position">
@@ -73,7 +73,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4"">
+            <div class="col-sm">
               <div class="planes-info-container">
                 <h3 class="planes-card--title">Plan 10</h3>
                 <div class="planes-card--position">
@@ -85,11 +85,11 @@
                 </div>
               </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm">
               <div class="planes-info-container">
-                <h3 class="planes-card--title firstLine">Plan 15</h3>
+                <h3 class="planes-card--title">Plan 15</h3>
                 <div class="planes-card--position">
-                  <p class="planes-card--light"> Hasta</p>
+                  <p class="planes-card--light firstLine"> Hasta</p>
                   <p class="planes-card--bold">15 Megas</p>
                   <p class="planes-card--light"> por solo</p>
                   <p class="planes-card--bold">$499</p>
@@ -97,6 +97,18 @@
                 </div>
             </div>
           </div>
+          <div class="col-sm">
+            <div class="planes-info-container">
+              <h3 class="planes-card--title">Plan 30</h3>
+              <div class="planes-card--position">
+                <p class="planes-card--light firstLine"> Hasta</p>
+                <p class="planes-card--bold">30 Megas</p>
+                <p class="planes-card--light"> por solo</p>
+                <p class="planes-card--bold">$599</p>
+                <p class="planes-card--light"> Al mes</p>  
+              </div>
+          </div>
+        </div>
         </div>
       </section>
       <div class="planes-card--contratar">
@@ -108,26 +120,26 @@
             <h2>Contacto</h2>
             <p class="title--section-padding">Llena los datos solicitados y nos comunicaremos contigo a la brevedad.</p>
           </div>
-            <form class="row g-3 contacto--form">
+            <form action="contacto.php" method="post" class="row g-3 contacto--form" >
               <div class="col-12 contacto--form-container">
                 <label for="name" class="form-label">Nombre(s) </label>
-                <input type="text" class="form-control" id="name" placeholder="Juan Pedro" required>
+                <input type="text" name="nombre" class="form-control" id="name" placeholder="Juan Pedro" required>
               </div>
               <div class="col-12 contacto--form-container">
                 <label for="lastName" class="form-label">Apellido(s)</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Lopez Martinez" required>
+                <input type="text" name="apellidos" class="form-control" id="lastName" placeholder="Lopez Martinez" required>
               </div>
               <div class="col-6 contacto--form-container">
                 <label for="adress" class="form-label">Colonia</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="Centro" required>
+                <input type="text" name="colonia" class="form-control" id="inputAddress" placeholder="Centro" required>
               </div>
               <div class="col-6 contacto--form-container">
                 <label for="phone" class="form-label">Teléfono</label>
-                <input type="tel" maxlength="10" class="form-control" id="phone" placeholder="662XXXXXXX" required>
+                <input type="tel" name="telefono" maxlength="10" class="form-control" id="phone" placeholder="662XXXXXXX" required>
               </div>
               <div class="col-12 contacto--form-container">
                 <label for="msg" class="form-label">Mensaje</label>
-                <input type="text" class="form-control" id="msg" placeholder="Max. 200 caracteres" required>
+                <input type="text" name="mensaje" class="form-control" id="msg" placeholder="Max. 200 caracteres" required>
               </div>
               <div class="col-12 planes-card--send">
                 <button type="submit">Enviar</button>
@@ -168,3 +180,4 @@
   </footer>
 </body>
 </html>
+
