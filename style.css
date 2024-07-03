@@ -160,7 +160,24 @@ h2{
     
 
 .planes-card--contratar a:hover{color:#fff;}
-    
+ 
+/* Preguntas frecuentes */
+.main-container-QA{
+    width:80%;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.accordion{
+    background-color: var(--bg);
+}
+.accordion-item button{
+    font-size: 1.4rem;
+    color: var(--font);
+}
+.accordion-item .accordion-collapse{
+    font-size: 1.2rem;
+    color: var(--font);
+}
 
 
 /* Contacto */
