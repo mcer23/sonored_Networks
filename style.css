@@ -167,9 +167,6 @@ h2{
     padding-top: 10px;
     margin: 0 auto;
 }
-.accordion{
-    background-color: var(--bg);
-}
 .accordion-item button{
     font-size: 1.4rem;
     color: var(--font);
@@ -520,6 +517,13 @@ padding-top: 16px;}
         font-size: 2.4rem;
         line-height: normal;
         padding: 7px;}
+    /* Preguntas frecuentes */
+    .accordion-item button{
+        font-size: 2.2rem;
+    }
+    .accordion-item .accordion-collapse{
+        font-size: 2rem;
+    }    
     
      /* Contacto */
      .contacto--form{padding:10px 204px;}
