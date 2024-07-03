@@ -162,18 +162,12 @@ h2{
 .planes-card--contratar a:hover{color:#fff;}
  
 /* Preguntas frecuentes */
-.main-container-QA{
-    width:80%;
+.accordion{ 
     padding-top: 10px;
-    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
 }
-.accordion-item button{
-    font-size: 1.4rem;
-    color: var(--font);
-}
-.accordion-item .accordion-collapse{
-    font-size: 1.2rem;
-    color: var(--font);
+.accordion-group{
+    padding-bottom: 20px;
 }
 
 
